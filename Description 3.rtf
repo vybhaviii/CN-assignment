@@ -6,4 +6,10 @@
 \pard\pardeftab720\sl480\slmult1\partightenfactor0
 
 \f0\fs24 \cf0 \expnd0\expndtw0\kerning0
-QUESTION:B09. Access a web page using a browser that sends some cookie value have expiry period of more than 60 seconds. Reaccess this web page and verify that cookie value is sent as part of the header. Access the webpage after the expiry time and verify that cookie is not sent in request header.SOLUTION: We opened gmail and accessed developer tools. We found cookies used by gmail under application heading. There were many cookies amongst which one expired after session was logged out. When we logged out and reaccessed later that cookie was not found. We also tried it using wget command and found a cookie file getting generated.DIFFICULTIES:We spent time to understand tcpdumps but could not implement it for capturing cookies.}
+QUESTION:B09. Access a web page using a browser that sends some cookie value have expiry period 
+of more than 60 seconds. Reaccess this web page and verify that cookie value is sent as part of the 
+header. Access the webpage after the expiry time and verify that cookie is not sent in request header.
+SOLUTION: We opened gmail and accessed developer tools. We found cookies used by gmail under application heading.
+There were many cookies amongst which one expired after session was logged out. When we logged out and reaccessed
+later that cookie was not found. We also tried it using wget command and found a cookie file getting generated.
+DIFFICULTIES:We spent time to understand tcpdumps but could not implement it for capturing cookies.}
