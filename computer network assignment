@@ -1,0 +1,18 @@
+srushti@Srushtia-Inspiron-5570:~$ wget --header="If-Modified-Since: Thu, 22 Aug 2019 17:34:33 GMT" http://rprustagi.com/
+--2019-09-20 11:04:43--  http://rprustagi.com/
+Resolving rprustagi.com (rprustagi.com)... 69.161.146.196
+Connecting to rprustagi.com (rprustagi.com)|69.161.146.196|:80... connected.
+HTTP request sent, awaiting response... 304 Not Modified
+2019-09-20 11:04:49 ERROR 304: Not Modified.
+
+srushti@Srushtia-Inspiron-5570:~$ wget --header="If-Modified-Since: Thu, 22 Aug 2019 17:34:32 GMT" http://rprustagi.com/
+--2019-09-20 11:05:07--  http://rprustagi.com/
+Resolving rprustagi.com (rprustagi.com)... 69.161.146.196
+Connecting to rprustagi.com (rprustagi.com)|69.161.146.196|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 3824 (3.7K) [text/html]
+Saving to: ‘index.html.2’
+
+index.html.2        100%[===================>]   3.73K  --.-KB/s    in 0s      
+
+
